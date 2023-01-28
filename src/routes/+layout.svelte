@@ -1,4 +1,5 @@
 <script>
+	import '../app.scss';
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
@@ -11,7 +12,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>&#xa9;iDesign <a href="https://github.com/y0ng0p3">@y0ng0p3</a></p>
 	</footer>
 </div>
 

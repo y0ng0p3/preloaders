@@ -16,7 +16,7 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
@@ -24,6 +24,15 @@
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
+			</li> -->
+			<li aria-current={$page.url.pathname === '/text-wave' ? 'page' : undefined}>
+				<a href="/text-wave">Text-Wave</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/text-snippet' ? 'page' : undefined}>
+				<a href="/text-snippet">Text-Snippet</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/square-spinners' ? 'page' : undefined}>
+				<a href="/square-spinners">Square-Spinners</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,7 +41,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/y0ng0p3">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
